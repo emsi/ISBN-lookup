@@ -14,7 +14,7 @@ print url
 # 83-216-0356-4
 # 
 
-reISBN=re.compile("ISBN[^0-9]*([\d\-]{10,13})")
+reISBN=re.compile("ISBN[^0-9]*([\d\-]{10,17})")
 
 req = urllib2.Request(url, headers={ 'User-Agent': 'Mozilla/5.0' })
 
